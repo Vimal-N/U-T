@@ -1,1 +1,52 @@
 /* add your CSS here */
+html{
+	  font-family: arial,sans-serif;
+		height: 630px;
+		width: 340px;
+		box-shadow: 0px 5px 20px 5px rgba(153,153,153,0.5);
+		border-radius: 10px;
+		padding: 10px;
+	
+		margin:auto;
+}
+
+
+.image{
+	width:310px;
+	height:200px;
+	border: 1px #caccce ;
+	border-style:none;
+	padding: 5px;
+	align:center;
+	margin: 5px;
+}
+
+h3{
+	text-transform: uppercase;
+}
+
+/* .boxed {
+
+	border-style:solid;
+} */
+
+.text-box-inner{
+	height: auto;
+	width: 300px;
+	padding: 10px;
+	margin:auto;
+	font-size: 13px;
+	border: 10px;
+	text-align:justify;
+	border: 1px #caccce ;
+	border-style:solid;
+	margin: 5px;
+}
+.text-bold{
+	font-weight: bold;
+
+}
+
+#description-spacing{
+	word-spacing: 2px;
+}
