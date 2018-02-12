@@ -14,10 +14,11 @@
 
 // change the values of `eatsPlants` and `eatsAnimals` to test your code
 var eatsPlants = false;
-var eatsAnimals = true;
+var eatsAnimals = false;
+var noPlantAndAnimal;
 //var eatsPlants = false;
 //var eatsAnimals = true;
 
-var category = ((eatsPlants && eatsAnimals) ?"omnivore":(eatsPlants?"herbivore":(eatsAnimals?"carnivore":"undefined")) );
+var category = ((eatsPlants && eatsAnimals) ?"omnivore":(eatsPlants?"herbivore":(eatsAnimals?"carnivore":noPlantAndAnimal)) );
 
 console.log(category);
