@@ -19,8 +19,6 @@ test.foreach(function(element,index,array){
     if(element%3===0){
         array[index] += 100;
     }
-
-
 });
 
 console.log(test);
