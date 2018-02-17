@@ -31,3 +31,5 @@ TO REFER TO VARIABLE IN THE SAME OBJECT, WE CAN USE this.
 
 
 */
+
+savingsAccount.deposit(100)
