@@ -13,3 +13,15 @@ http://lorempixel.com/350/150/animals/
 Good luck!
 
 */
+$(addingImage);
+
+function addingImage(){
+
+//"http://placekitten.com/350/150"
+
+$('li').find("img").attr("src","http://placekitten.com/350/150");
+$('li').find("img").attr("alt","kitten photo");
+
+}
+
+// NOTE : I used $('li').find("img") to specifically find img tag within li. but this can be written even more specifically
