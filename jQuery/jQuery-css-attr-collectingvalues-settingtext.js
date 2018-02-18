@@ -77,3 +77,24 @@ bruce.append(madison);
 bruce.append(hunter);
 
 
+//====================================Interacting with DOM using each() method of jQuery======================
+/*
+For this quiz, use jQuery's each() method to iterate through the <p>s,
+calculate the length of each one, and add each length to the end of each <p>.
+
+Also, make sure you don't change the text inside each <p> except to add the length, otherwise your
+length numbers won't be correct!
+*/
+
+// Your code goes here!
+
+var ptag = $('.articles').find("p").each(function (index){
+
+    var initialString = $( this ).text();
+    var countOfCharacters = initialString.length;
+    var FinalString = initialString+countOfCharacters;
+    $( this ).text(FinalString);
+});
+
+//.each() method behaves like a for loop to iterate or apply any functions to each of the tag from the lists of element we selected
+// Example if your DOM has 5 div, then $("div").each(<somefunction>) will iterate function called somefunction on each of this div tag
